@@ -18,3 +18,9 @@ Then you can run it by:
 cd your-new-project
 yarn develop
 ```
+
+## Included
+
+* eslint
+* prettier
+* 
