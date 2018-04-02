@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Slon Tech Gatsby Starter',
   },
-  plugins: ['gatsby-plugin-react-helmet'],
+  plugins: ['gatsby-plugin-react-helmet', 'gatsby-plugin-sass'],
 };

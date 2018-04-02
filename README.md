@@ -1,5 +1,9 @@
-# slontech-gatsby-starter
-A Gatsby starter base on the gatsby-starter-default
+# gatsby-starter-slontech
+A Gatsby starter base on the gatsby-starter-default.
+
+* SCSS
+* eslint
+* prettier
 
 ## Install
 
@@ -10,7 +14,7 @@ yarn global add gatsby-cli
 
 And run from your CLI:
 ```sh
-gatsby new your-new-project https://bitbucket.org/slontech/slontech-gatsby-starter
+gatsby new your-new-project https://github.com/slontech/gatsby-starter-slontech.git
 ```
 
 Then you can run it by:
@@ -18,9 +22,3 @@ Then you can run it by:
 cd your-new-project
 yarn develop
 ```
-
-## Included
-
-* eslint
-* prettier
-* 

@@ -19,6 +19,13 @@
   "rules": {
     "quotes": ["error", "single"],
     "react/require-default-props": 1,
-    "max-len": ["error", 90]
+    "max-len": ["error", 90],
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "components": ["Link"],
+        "specialLink": ["to"]
+      }
+    ]
   }
 }

@@ -1,15 +1,18 @@
 {
-  "name": "slontech-gatsby-starter",
-  "description": "Slontech Gatsby Starter",
+  "name": "gatsby-starter-slontech",
+  "description": "Slon Tech Gatsby Starter",
   "version": "1.0.0",
   "author": "Joshua Crass <joshua@slontech.com>",
   "dependencies": {
     "gatsby": "^1.9.241",
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-react-helmet": "^2.0.8",
+    "react": "^16.3.0",
     "react-helmet": "^5.2.0"
   },
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -24,6 +27,7 @@
     "eslint-plugin-import": "^2.9.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.7.0",
+    "gatsby-plugin-sass": "^1.0.25",
     "prettier": "^1.11.1"
   }
 }
