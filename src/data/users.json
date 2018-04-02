@@ -1,0 +1,247 @@
+[
+  {
+    "_id": "5ac26087956d5808fffcd1e3",
+    "index": 0,
+    "guid": "8a3e814a-6645-4cdd-93fd-8c56b69dd01e",
+    "isActive": false,
+    "balance": "$3,157.95",
+    "picture": "http://placehold.it/32x32",
+    "age": 23,
+    "eyeColor": "brown",
+    "name": "Glenda Christensen",
+    "gender": "female",
+    "company": "MANGLO",
+    "email": "glendachristensen@manglo.com",
+    "phone": "+1 (932) 465-2453",
+    "address": "782 Barlow Drive, Nutrioso, Mississippi, 3709",
+    "registered": "2016-07-22T12:51:44 -02:00",
+    "latitude": 71.046559,
+    "longitude": -17.845702,
+    "friends": [
+      {
+        "id": 0,
+        "name": "Ellis Potter"
+      },
+      {
+        "id": 1,
+        "name": "Benton Chambers"
+      },
+      {
+        "id": 2,
+        "name": "Caldwell Oneil"
+      }
+    ],
+    "greeting": "Hello, Glenda Christensen! You have 9 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "5ac26087d4463992f88fc011",
+    "index": 1,
+    "guid": "d7747aaf-b5d4-4303-9071-bd404b2ea046",
+    "isActive": false,
+    "balance": "$2,333.85",
+    "picture": "http://placehold.it/32x32",
+    "age": 32,
+    "eyeColor": "brown",
+    "name": "John Durham",
+    "gender": "male",
+    "company": "TALKOLA",
+    "email": "junedurham@talkola.com",
+    "phone": "+1 (985) 493-3566",
+    "address": "740 Bay Avenue, Mahtowa, New Jersey, 4747",
+    "registered": "2017-08-18T01:11:40 -02:00",
+    "latitude": -52.489182,
+    "longitude": -21.708558,
+    "friends": [
+      {
+        "id": 0,
+        "name": "Tamera Shannon"
+      },
+      {
+        "id": 1,
+        "name": "Dona Shaffer"
+      },
+      {
+        "id": 2,
+        "name": "Nina Henderson"
+      }
+    ],
+    "greeting": "Hello, June Durham! You have 5 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "5ac2608767b7a167aea08ba0",
+    "index": 2,
+    "guid": "de60569f-46a1-4d35-a734-4774b6740fed",
+    "isActive": true,
+    "balance": "$1,661.36",
+    "picture": "http://placehold.it/32x32",
+    "age": 32,
+    "eyeColor": "green",
+    "name": "Margie Vaughn",
+    "gender": "female",
+    "company": "FROLIX",
+    "email": "margievaughn@frolix.com",
+    "phone": "+1 (819) 502-3465",
+    "address": "116 Vanderveer Street, Greenwich, Texas, 4615",
+    "registered": "2016-02-19T05:01:46 -01:00",
+    "latitude": -73.01014,
+    "longitude": -90.489444,
+    "friends": [
+      {
+        "id": 0,
+        "name": "Richmond Fisher"
+      },
+      {
+        "id": 1,
+        "name": "Alana Burks"
+      },
+      {
+        "id": 2,
+        "name": "Pam Daniel"
+      }
+    ],
+    "greeting": "Hello, Margie Vaughn! You have 10 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "5ac26087c7de643f2c167906",
+    "index": 3,
+    "guid": "8068e170-742a-4a60-a469-427777469b29",
+    "isActive": false,
+    "balance": "$1,149.95",
+    "picture": "http://placehold.it/32x32",
+    "age": 21,
+    "eyeColor": "blue",
+    "name": "Geneva Cook",
+    "gender": "female",
+    "company": "EWAVES",
+    "email": "genevacook@ewaves.com",
+    "phone": "+1 (948) 461-2375",
+    "address": "733 Whitwell Place, Grapeview, Nevada, 2616",
+    "registered": "2015-01-24T07:19:42 -01:00",
+    "latitude": 27.883522,
+    "longitude": -79.207183,
+    "friends": [
+      {
+        "id": 0,
+        "name": "Nolan Cameron"
+      },
+      {
+        "id": 1,
+        "name": "Gay Potts"
+      },
+      {
+        "id": 2,
+        "name": "Sutton Bennett"
+      }
+    ],
+    "greeting": "Hello, Geneva Cook! You have 5 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "5ac26087f5e1b12cb6efa2d6",
+    "index": 4,
+    "guid": "41587f02-b887-4e33-aa68-02632c224865",
+    "isActive": true,
+    "balance": "$3,716.69",
+    "picture": "http://placehold.it/32x32",
+    "age": 23,
+    "eyeColor": "green",
+    "name": "Miriam Gilliam",
+    "gender": "female",
+    "company": "GRONK",
+    "email": "miriamgilliam@gronk.com",
+    "phone": "+1 (947) 494-3016",
+    "address": "101 Kosciusko Street, Rosewood, District Of Columbia, 5727",
+    "registered": "2017-02-17T10:22:49 -01:00",
+    "latitude": 65.291143,
+    "longitude": -140.238292,
+    "friends": [
+      {
+        "id": 0,
+        "name": "Daniels Snow"
+      },
+      {
+        "id": 1,
+        "name": "Ford Willis"
+      },
+      {
+        "id": 2,
+        "name": "Owen Fox"
+      }
+    ],
+    "greeting": "Hello, Miriam Gilliam! You have 2 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "5ac26087dd7f3780c2e4d71a",
+    "index": 5,
+    "guid": "1708d89f-74ed-4448-a5cb-992b17f8ee66",
+    "isActive": true,
+    "balance": "$2,964.05",
+    "picture": "http://placehold.it/32x32",
+    "age": 40,
+    "eyeColor": "blue",
+    "name": "Augusta Fuller",
+    "gender": "female",
+    "company": "ECRATER",
+    "email": "augustafuller@ecrater.com",
+    "phone": "+1 (833) 539-3418",
+    "address": "887 Crystal Street, Rutherford, Hawaii, 1987",
+    "registered": "2017-10-13T07:34:31 -02:00",
+    "latitude": 55.441091,
+    "longitude": -83.140213,
+    "friends": [
+      {
+        "id": 0,
+        "name": "Hilda Weiss"
+      },
+      {
+        "id": 1,
+        "name": "Odonnell Wilkinson"
+      },
+      {
+        "id": 2,
+        "name": "Araceli Pratt"
+      }
+    ],
+    "greeting": "Hello, Augusta Fuller! You have 7 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "5ac260871a0d2adb9cc133e4",
+    "index": 6,
+    "guid": "d05147f0-140b-4728-9b5c-f498587ab526",
+    "isActive": false,
+    "balance": "$2,512.13",
+    "picture": "http://placehold.it/32x32",
+    "age": 40,
+    "eyeColor": "brown",
+    "name": "Hale Gardner",
+    "gender": "male",
+    "company": "KRAGGLE",
+    "email": "halegardner@kraggle.com",
+    "phone": "+1 (828) 589-3530",
+    "address": "282 Coventry Road, Calpine, Indiana, 2248",
+    "registered": "2015-01-05T08:10:28 -01:00",
+    "latitude": -79.47393,
+    "longitude": 51.107922,
+    "friends": [
+      {
+        "id": 0,
+        "name": "Espinoza Sims"
+      },
+      {
+        "id": 1,
+        "name": "Lindsey Reilly"
+      },
+      {
+        "id": 2,
+        "name": "Mallory Ewing"
+      }
+    ],
+    "greeting": "Hello, Hale Gardner! You have 7 unread messages.",
+    "favoriteFruit": "strawberry"
+  }
+]

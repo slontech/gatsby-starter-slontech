@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
-import style from './header.scss';
+import style from './header.module.scss';
 
 const Header = () => (
   <div className={style.header}>
