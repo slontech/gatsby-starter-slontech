@@ -4,12 +4,16 @@
   "version": "1.0.0",
   "author": "Joshua Crass <joshua@slontech.com>",
   "dependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "gatsby": "^1.9.241",
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-react-helmet": "^2.0.8",
     "gatsby-source-filesystem": "^1.5.27",
     "react": "^16.3.0",
-    "react-helmet": "^5.2.0"
+    "react-dom": "^16.4.0",
+    "react-helmet": "^5.2.0",
+    "react-router-dom": "^4.2.2"
   },
   "keywords": [
     "gatsby"
@@ -19,17 +23,40 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "lint": "eslint src *.js",
+    "prettier-check": "lint-staged",
+    "prettier": "prettier"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.2",
+    "babel-preset-flow": "^6.23.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.9.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.7.0",
+    "flow-bin": "^0.69.0",
     "gatsby-plugin-sass": "^1.0.25",
     "gatsby-transformer-json": "^1.0.16",
-    "prettier": "^1.11.1"
+    "husky": "^0.14.3",
+    "jest": "^23.1.0",
+    "lint-staged": "^7.1.3",
+    "prettier": "^1.11.1",
+    "react-test-renderer": "^16.4.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint"
+    ],
+    "*.{js,json,css,md}": [
+      "prettier --list-different"
+    ]
   }
 }
