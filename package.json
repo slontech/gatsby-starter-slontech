@@ -52,10 +52,10 @@
     }
   },
   "lint-staged": {
-    "*.js": [
+    "*.{js,jsx}": [
       "eslint"
     ],
-    "*.{js,json,css,md}": [
+    "*.{js,jsx,json,css,md}": [
       "prettier --list-different"
     ]
   }
