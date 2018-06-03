@@ -3,7 +3,6 @@ import Link from 'gatsby-link';
 
 import style from './index.module.scss';
 
-// class IndexPage extends React.PureComponent {
 const IndexPage = (QueryData) => {
   const { data } = QueryData;
   return (
@@ -27,7 +26,7 @@ const IndexPage = (QueryData) => {
   );
 };
 
-// The following query fetchs data from src/data/user.json
+// The following query fetches data from src/data/user.json
 // eslint-disable-next-line no-undef
 export const query = graphql`
   query data {
