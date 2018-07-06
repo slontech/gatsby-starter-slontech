@@ -4,7 +4,7 @@
   },
   "rules": {
     "empty-line-between-blocks": 2,
-    "nesting-depth": 2,
+    "nesting-depth": 1,
     "leading-zero": 0,
     "property-sort-order": 2,
     "function-name-format": [
