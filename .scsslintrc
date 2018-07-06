@@ -1,0 +1,39 @@
+{
+  "files": {
+    "ignore": "node_modules/**/*.s+(a|c)ss"
+  },
+  "rules": {
+    "empty-line-between-blocks": 2,
+    "nesting-depth": 2,
+    "leading-zero": 0,
+    "property-sort-order": 2,
+    "function-name-format": [
+      2,
+      {
+        "allow-leading-underscore": false,
+        "convention": "camelcase"
+      }
+    ],
+    "mixin-name-format": [
+      2,
+      {
+        "allow-leading-underscore": false,
+        "convention": "camelcase"
+      }
+    ],
+    "placeholder-name-format": [
+      2,
+      {
+        "allow-leading-underscore": false,
+        "convention": "camelcase"
+      }
+    ],
+    "class-name-format": [
+      2,
+      {
+        "allow-leading-underscore": false,
+        "convention": "camelcase"
+      }
+    ]
+  }
+}
