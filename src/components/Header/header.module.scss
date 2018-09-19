@@ -1,5 +1,7 @@
+@import '../../style/colors';
+
 .header {
-  background: rebeccapurple;
+  background-color: $royal-purple;
   margin-bottom: 1.45rem;
 
   .titleSection {
@@ -7,8 +9,9 @@
     max-width: 960;
     padding: 1.45rem 1.0875rem;
     text-align: center;
+
     .link {
-      color: white;
+      color: $white;
       text-decoration: none;
     }
   }
