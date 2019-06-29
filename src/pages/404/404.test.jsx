@@ -9,10 +9,6 @@ describe('About', () => {
     expect(Component).toHaveLength(1);
   });
 
-  it('is of type <div/>', () => {
-    expect(Component.type()).toBe('div');
-  });
-
   it('matches snapshot', () => {
     const notFoundPage = shallow(<NotFound />);
     expect(notFoundPage).toMatchSnapshot();

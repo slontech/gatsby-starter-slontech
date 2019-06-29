@@ -3,7 +3,7 @@
 module.exports = {
   verbose: true,
   collectCoverageFrom: ['src/**/*.{js,jsx}'],
-  setupFilesAfterEnv: '<rootDir>/jest.setup.js',
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   testMatch: ['<rootDir>/src/**/?(*.)test.{js,jsx}'],
   testEnvironment: 'jsdom',
   transform: {
